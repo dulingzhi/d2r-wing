@@ -201,16 +201,9 @@
                 {
                     "type": "AnimatedImageWidget", "name": "Logo",
                     "fields": {
-                        "rect": { "x": -226, "y": 97, "scale": 0.80 },
+                        "rect": { "x": -226, "y": 126, "scale": 0.80 },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20,
-                    },
-                },
-                {
-                    "type": "ImageWidget", "name": "ResurrectedText",
-                    "fields": {
-                        "rect": { "x": -175, "y": 365, "scale": 0.80 },
-                        "filename": "LogoAnimation/ResurrectedText",
                     },
                 },
                 {
@@ -231,13 +224,15 @@
                             "fontColor": "$FontColorGoldYellow",
                             "alignment": { "v": "center", "h": "center" },
                             "pointSize": "$LargeFontSize",
+                            "fontFace": "BlizzardGlobal",
                         },
                         "useAltStyleIfDoesntFit": true,
                         "altStyle": {
                             "fontColor": { "r": 199, "g": 179, "b": 119, "a": 255 },
                             "alignment": { "v": "center", "h": "center" },
                             "pointSize": "$SmallFontSize",
-                            "spacing": "$MinimumSpacing",
+                            "spacing": "$ReducedSpacing",
+                            "fontFace": "BlizzardGlobal",
                         },
                     }
                 },
@@ -449,6 +444,7 @@
             "fields": {
                 "rect": { "x": 43, "y": 450, "width": 380, "height": 58 },
                 "style": {
+                    "fontFace": "BlizzardGlobal",
                     "fontColor": "$FontColorWhite",
                     "alignment": { "v": "center", "h": "center" },
                     "pointSize": "$SmallFontSize",
@@ -460,6 +456,7 @@
                 },
                 "useAltStyleIfDoesntFit": true,
                 "altStyle": {
+                    "fontFace": "BlizzardGlobal",
                     "fontColor": "$FontColorWhite",
                     "alignment": { "v": "center", "h": "center" },
                     "pointSize": "$SmallFontSize",

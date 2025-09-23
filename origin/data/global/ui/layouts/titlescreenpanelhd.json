@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "TitleScreenHDPanel", "name": "TitleScreenPanel",
     "fields": {
         "fitToParent": true,
@@ -25,7 +25,7 @@
                 "text": "@KeyboardTitleScreenPrompt",
                 "style": {
                     "alignment": { "h": "center", "v": "center" },
-        	    "fontColor": "$FontColorDarkGrayBlue",
+                    "fontColor": "$FontColorDarkGrayBlue",
        	            "pointSize": "$XExtraLargeFontSize",
                 }
             }
@@ -39,16 +39,44 @@
             },
         },
         {
-            "type": "TextBoxWidget", "name": "Copyright",
+            "type": "TextBoxWidget", "name": "ChinesePublisherLine1",
             "fields": {
                 "anchor": { "x": 0.5, "y": 1 },
                 "rect": { "x": 0, "y": -167 },
+                "text": "@ChinesePublisherLine1",
+                "style": {
+                    "alignment": { "h": "center", "v": "center" },
+                    "fontColor": "$FontColorDarkGrayBlue",
+                    "pointSize": "$FixedMediumFontSize",
+                    "fontFace": "BlizzardGlobal",
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ChinesePublisherLine2",
+            "fields": {
+                "anchor": { "x": 0.5, "y": 1 },
+                "rect": { "x": 0, "y": -111 },
+                "text": "@ChinesePublisherLine2",
+                "style": {
+                    "alignment": { "h": "center", "v": "center" },
+                    "fontColor": "$FontColorDarkGrayBlue",
+                    "pointSize": "$FixedMediumFontSize",
+                    "fontFace": "BlizzardGlobal",
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Copyright",
+            "fields": {
+                "anchor": { "x": 0.5, "y": 1 },
+                "rect": { "x": 0, "y": -55 },
                 "text": "@CopyrightText",
                 "style": {
                     "alignment": { "h": "center", "v": "center" },
                     "fontColor": "$FontColorDarkGrayBlue",
                     "pointSize": "$SmallFontSize",
-        	    "fontFace": "BlizzardGlobal",
+                    "fontFace": "BlizzardGlobal",
                 }
             }
         },
@@ -101,6 +129,31 @@
             }
         },
         {
+            "type": "ButtonWidget", "name": "ChineseAgeRestriction",
+            "fields": {
+                "rect": { "x": -150, "y": -400 },
+                "anchor": { "x": 0.95, "y": 0.95 },
+                "filename": "FrontEnd/ChineseAgeAlertIcon",
+                "onClickMessage": "PanelManager:OpenPanel:ChineseAgeRestrictionInstructionsPanel",
+                "hoveredFrame": 2,
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ChineseWarningsAndDisclaimers",
+            "fields": {
+                "anchor": { "x": 1.0 },
+                "rect": { "x": -910, "y": 50, "width": 880, "height": 880 },
+                "text": "@ChineseWarningsAndDisclaimers",
+                "style": {
+                    "alignment": { "h": "left", "v": "center" },
+                    "fontColor": "$FontColorDarkGrayBlue",
+                    "pointSize": "$FixedMediumFontSize",
+                    "fontFace": "BlizzardGlobal",
+                    "options": { "pipeCharacterBehavior" : "handle", "lineWrap": true, "newlineHandling": "standard" },
+                }
+            }
+        },
+        {
             "type": "RectangleWidget", "name": "LoadingScreen",
             "fields": {
                 "fitToScreen": true,
@@ -119,17 +172,9 @@
                     "type": "AnimatedImageWidget", "name": "Logo",
                     "fields": {
                         "anchor": { "x": 1.0, "y": 1.0 },
-                        "rect": { "x": -399, "y": -412, "scale": 0.5 },
+                        "rect": { "x": -399, "y": -395, "scale": 0.5 },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20,
-                    },
-                },
-                {
-                    "type": "ImageWidget", "name": "ResurrectedText",
-                    "fields": {
-                        "anchor": { "x": 1.0, "y": 1.0 },
-                        "rect": { "x": -370, "y": -246, "scale": 0.5 },
-                        "filename": "LogoAnimation/ResurrectedText",
                     },
                 },
                 {

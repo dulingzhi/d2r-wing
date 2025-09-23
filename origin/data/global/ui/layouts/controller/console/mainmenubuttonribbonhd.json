@@ -90,6 +90,18 @@
                         "filename": "Lobby\\CreateGame\\DifficultySelector"
                     },
                 },
+// Temp Chinese Beta
+                {
+                    "type": "ButtonWidget", "name": "Settings",
+                    "fields": {
+                        "rect": { "x": 164, "y": 1025 },
+                        "navigation": {
+                            "up": { "name": "OnlineMode" },
+                            "down": { "name": "FriendsList" },
+                        }
+                    }
+                },
+/*
                 {
                     "type": "ButtonWidget", "name": "Settings",
                     "fields": {
@@ -120,6 +132,7 @@
                         }
                     }
                 },
+*/
             ]
         },
         {

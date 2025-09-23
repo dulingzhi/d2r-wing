@@ -290,9 +290,9 @@
                                     "fields": {
                                         "rect": { "x": 6, "y": 0, "width": 398, "height": "$JoinGamePlayerNameHeight" },
                                         "style": {
+                                            "fontFace": "BlizzardGlobal",
                                             "fontColor": "$FontColorGoldYellow",
                                             "pointSize": "$SmallFontSize",
-                                            "spacing": "$MinimumSpacing",
                                             "spacing": { "leading": 0.85 },
                                             "alignment": { "h": "left", "v": "center" },
                                             "options": { "lineWrap": true, "newlineHandling": "standard" },
@@ -305,9 +305,9 @@
                                     "fields": {
                                         "rect": { "x": 6, "y": "$JoinGamePlayerNameHeight", "width": 398, "height": 40 },
                                         "style": {
+                                            "fontFace": "BlizzardGlobal",
                                             "fontColor": "$FontColorWhite",
                                             "pointSize": "$SmallFontSize",
-                                            "spacing": "$MinimumSpacing",
                                             "alignment": { "h": "left", "v": "center" },
                                             "dropShadow": "$DefaultDropShadow",
                                         },

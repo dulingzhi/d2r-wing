@@ -42,8 +42,9 @@
         {
             "type": "TextBoxWidget", "name": "PlayerName",
             "fields": {
-                "rect": { "x": 81, "y": 19, "width": 665, "height": 43 },
+                "rect": { "x": 76, "y": 14, "width": 665, "height": 45 },
                 "style": {
+                    "fontFace": "BlizzardGlobal",
                     "fontColor": "$FontColorLightGold",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center", "v": "center" },

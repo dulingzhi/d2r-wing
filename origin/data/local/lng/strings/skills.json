@@ -4128,7 +4128,7 @@
     "jaJP": "ブラッドゴーレム",
     "ptBR": "Golem de Sangue",
     "ruRU": "Кровяной голем",
-    "zhCN": "鲜血傀儡"
+    "zhCN": "精华傀儡"
   },
   {
     "id": 3125,
@@ -5063,7 +5063,7 @@
     "jaJP": "ダメージ: 死体のライフの%d - %d%%",
     "ptBR": "Dano: %d-%d%% de pontos de vida de cadáver",
     "ruRU": "Урон: %d–%d%% здоровья трупа",
-    "zhCN": "伤害: 尸体生命值的%d-%d%%"
+    "zhCN": "伤害: 残骸生命值的%d-%d%%"
   },
   {
     "id": 4301,
@@ -10894,7 +10894,7 @@
     "jaJP": "近接攻撃を受け止める骨の鎧を召喚する",
     "ptBR": "cria um casco ósseo que absorve dano",
     "ruRU": "Создает костяной щит, поглощающий урон.",
-    "zhCN": "制造一道白骨甲壳吸收伤害"
+    "zhCN": "制造一道骨甲壳吸收伤害"
   },
   {
     "id": 4647,
@@ -11982,7 +11982,7 @@
     "jaJP": "鋭い骨の槍を召喚する",
     "ptBR": "evoca um espeto de osso mortal",
     "ruRU": "Призывает смертоносный костяной шип.",
-    "zhCN": "召唤一根致命的骨刺"
+    "zhCN": "召唤一根致命的白骨尖刺"
   },
   {
     "id": 4711,
@@ -12033,7 +12033,7 @@
     "jaJP": "ブラッドゴーレム",
     "ptBR": "Golem de Sangue",
     "ruRU": "Кровяной голем",
-    "zhCN": "鲜血傀儡"
+    "zhCN": "精华傀儡"
   },
   {
     "id": 4714,
@@ -12084,7 +12084,7 @@
     "jaJP": "ブラッドゴーレム",
     "ptBR": "Golem de Sangue",
     "ruRU": "Кровяной голем",
-    "zhCN": "鲜血傀儡"
+    "zhCN": "精华傀儡"
   },
   {
     "id": 4717,
@@ -12237,7 +12237,7 @@
     "jaJP": "ボーンプリズン",
     "ptBR": "Prisão de Ossos",
     "ruRU": "Костяная клетка",
-    "zhCN": "骨牢"
+    "zhCN": "钙白牢笼"
   },
   {
     "id": 4726,
@@ -12288,7 +12288,7 @@
     "jaJP": "ボーンプリズン",
     "ptBR": "Prisão de Ossos",
     "ruRU": "Костяная клетка",
-    "zhCN": "骨牢"
+    "zhCN": "钙白牢笼"
   },
   {
     "id": 4729,
@@ -15195,7 +15195,7 @@
     "jaJP": "倒した敵の死体から一定確率で\nポーションを入手する",
     "ptBR": "use no cadáver de um monstro\npara a chance de encontrar uma poção",
     "ruRU": "Применяется к трупу убитого монстра.\nДает шанс найти зелье.",
-    "zhCN": "对被消灭的怪物尸体使用\n有几率找到药剂"
+    "zhCN": "对被消灭的怪物残骸使用\n有几率找到药剂"
   },
   {
     "id": 4900,
@@ -15943,7 +15943,7 @@
     "jaJP": "倒した敵の死体から一定確率で\nアイテムを入手する",
     "ptBR": "use no cadáver de um mostro\npara encontrar tesouros ocultos",
     "ruRU": "Применяется к трупу убитого монстра.\nПозволяет найти сокровище.",
-    "zhCN": "对被消灭的怪物尸体使用\n有几率找到隐藏的财宝"
+    "zhCN": "对被消灭的怪物残骸使用\n有几率找到隐藏的财宝"
   },
   {
     "id": 4944,
@@ -16470,7 +16470,7 @@
     "jaJP": "倒した敵の死体を使って\n恐ろしいトーテムを作り、\n近くの敵を逃走させる",
     "ptBR": "use no cadáver de um monstro\npara criar um totem assustador\nque faz os monstros próximos fugirem",
     "ruRU": "Применяется к трупу убитого монстра.\nСоздает пугающий тотем, который обращает\nмонстров вокруг себя в бегство.",
-    "zhCN": "对被消灭的怪物尸体使用\n制造一个恐怖的图腾\n让附近的怪物逃跑"
+    "zhCN": "对被消灭的怪物残骸使用\n制造一个恐怖的图腾\n让附近的怪物逃跑"
   },
   {
     "id": 4976,
@@ -16538,7 +16538,7 @@
     "jaJP": "強力な回転斬りを繰り出し、\n行く手を阻む敵を切り刻む",
     "ptBR": "uma dança da morte rodopiante\nque abre caminho entre\nas legiões de inimigos",
     "ruRU": "Вращается, прорубая путь\nсквозь толпы врагов.",
-    "zhCN": "盘旋的死亡之舞\n在敌人的军团中\n杀出一条血路"
+    "zhCN": "盘旋的死亡之舞\n在敌人的军团中\n拼出一条生路"
   },
   {
     "id": 4980,
@@ -28523,7 +28523,7 @@
     "jaJP": "コープスエクスプロージョンのダメージ: 死体のライフの%d - %d%%",
     "ptBR": "Dano de Explodir Cadáver: %d-%d%% de pontos de vida de cadáver",
     "ruRU": "Урон от взрыва трупа: %d–%d%% здоровья убитого монстра",
-    "zhCN": "邪爆伤害: 尸体生命值的%d-%d%%"
+    "zhCN": "邪爆伤害: 残骸生命值的%d-%d%%"
   },
   {
     "id": 10997,
@@ -30138,7 +30138,7 @@
     "jaJP": "血に飢えた蔦",
     "ptBR": "Vinha Carniceira",
     "ruRU": "Трупная лоза",
-    "zhCN": "食尸藤"
+    "zhCN": "食腐藤"
   },
   {
     "id": 22079,
@@ -30155,7 +30155,7 @@
     "jaJP": "死体を食べる植物を召喚する",
     "ptBR": "evoca uma vinha que come cadáveres",
     "ruRU": "Призывает трупоядную лозу.",
-    "zhCN": "召唤吞食尸体的蔓藤"
+    "zhCN": "召唤吞食残骸的蔓藤"
   },
   {
     "id": 22080,
@@ -30172,7 +30172,7 @@
     "jaJP": "死体から養分を吸い取る植物を\n召喚し、自身のライフを回復させる",
     "ptBR": "evoca uma vinha que come cadáveres\ne restaura seus pontos de vida",
     "ruRU": "Призывает лозу, которая поглощает трупы\nи восполняет вам здоровье.",
-    "zhCN": "召唤藤蔓吞噬尸体\n为你补充生命"
+    "zhCN": "召唤藤蔓吞噬残骸\n为你补充生命"
   },
   {
     "id": 22081,
@@ -30189,7 +30189,7 @@
     "jaJP": "血に飢えた蔦",
     "ptBR": "Vinha Carniceira",
     "ruRU": "Трупная лоза",
-    "zhCN": "食尸藤"
+    "zhCN": "食腐藤"
   },
   {
     "id": 22082,
@@ -30580,7 +30580,7 @@
     "jaJP": "飢えた凶暴な狼を召喚する\nこの狼は死体を食べることで\n攻撃力が増加する",
     "ptBR": "evoca um lobo enfurecido\nque come cadáveres para aumentar o dano\ncausado a inimigos",
     "ruRU": "Призывает волка, который пожирает\nтрупы, увеличивая свой урон.",
-    "zhCN": "召唤一头狂怒的狼\n吞噬尸体\n提高对敌人的伤害"
+    "zhCN": "召唤一头狂怒的狼\n吞噬残骸\n提高对敌人的伤害"
   },
   {
     "id": 22105,
@@ -30835,7 +30835,7 @@
     "jaJP": "死体を食べる植物を召喚する",
     "ptBR": "evoca uma vinha que come cadáveres",
     "ruRU": "Призывает трупоядную лозу.",
-    "zhCN": "召唤吞食尸体的藤蔓"
+    "zhCN": "召唤吞食残骸的藤蔓"
   },
   {
     "id": 22120,
@@ -30852,7 +30852,7 @@
     "jaJP": "死体から霊気を吸い取る植物を\n召喚し、自身のマナを回復させる",
     "ptBR": "evoca uma vinha que come cadáveres\ne restaura mana",
     "ruRU": "Призывает лозу, которая поглощает трупы\nи восполняет вам ману.",
-    "zhCN": "召唤藤蔓吞噬尸体\n为你补充法力值"
+    "zhCN": "召唤藤蔓吞噬残骸\n为你补充法力值"
   },
   {
     "id": 22121,
@@ -33215,7 +33215,7 @@
     "jaJP": "近くの死体を爆発させる罠を設置する",
     "ptBR": "armadilha que explode cadáveres próximos",
     "ruRU": "Ловушка, взрывающая находящиеся рядом трупы.",
-    "zhCN": "引爆附近尸体的陷阱"
+    "zhCN": "引爆附近残骸的陷阱"
   },
   {
     "id": 22260,
@@ -33232,7 +33232,7 @@
     "jaJP": "敵に電撃を放ち、近くの死体を爆発させて\n周囲の敵にダメージを与える罠を設置する",
     "ptBR": "uma armadilha que dispara eletricidade em inimigos\nou explode cadáveres próximos para destruir mais inimigos",
     "ruRU": "Ловушка, которая стреляет молниями\nили взрывает трупы рядом с собой.",
-    "zhCN": "设下陷阱, 当敌人靠近时射出闪电\n或引爆周围的尸体, 消灭更多敌人"
+    "zhCN": "设下陷阱, 当敌人靠近时射出闪电\n或引爆周围的残骸, 消灭更多敌人"
   },
   {
     "id": 22261,

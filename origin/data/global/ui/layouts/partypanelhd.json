@@ -151,6 +151,7 @@
                             "fields": {
                                 "rect": { "x": 108, "y": 14, "width": 340, "height": 46 },
                                 "style": {
+                                    "fontFace": "BlizzardGlobal",
                                     "fontColor": "$FontColorGold",
                                     "pointSize": "$MediumPanelFontSize",
                                     "alignment": { "h": "left", "v": "center" },

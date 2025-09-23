@@ -120,29 +120,5 @@
                 "text/style": "$StyleCinematicsButtonText",
             }
         },
-        {
-            "type": "ToggleButtonWidget", "name": "LegacyCheckbox",
-            "fields": {
-                "rect": { "x": 312, "y": 1292 },
-                "sound": "cursor_menu_select_hd",
-                "filename": "Lobby\\CreateGame\\CreateGame_AdvancedCheckbox",
-                "untoggledFrame": 0,
-                "untoggledPressedFrame": 1,
-                "untoggledHoveredFrame": 3,
-                "untoggledDisabledFrame": 2,
-                "toggledFrame": 4,
-                "toggledPressedFrame": 5,
-                "toggledHoveredFrame": 6,
-                "onClickMessage": "Cinematics:LegacyToggle",
-            },
-        },
-        {
-            "type": "TextBoxWidget", "name": "LegacyCinematicsText",
-            "fields": {
-                "rect": { "x": 422, "y": 1292, "width": 500, "height": 66 },
-                "text": "@ViewLegacyCinematics",
-                "style": "$StyleSettingsText",
-            }
-        },
     ]
 }

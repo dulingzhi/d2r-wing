@@ -28,10 +28,14 @@
                         "focusIndicatorOffset": { "x": -2, "y": 0 },
                         "navigation": {
                             "right": { "panelBoundary": true },
-                            "down": { "name": "Cinematics" },
+// Temp Chinese Beta
+                            "down": { "name": "Exit" },
+//                            "down": { "name": "Cinematics" },
                         }
                     }
                 },
+// Temp Chinese Beta
+/*
                 {
                     "type": "ButtonWidget", "name": "Cinematics",
                     "fields": {
@@ -68,6 +72,20 @@
                             "right": { "panelBoundary": true },
                             "up": { "name": "Credits" },
                             "down": { "name": "MotDScrollBar" },
+                        }
+                    }
+                },
+*/
+// Temp Chinese Beta
+                {
+                    "type": "ButtonWidget", "name": "Exit",
+                    "fields": {
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorVisible": true,
+                        "focusIndicatorOffset": { "x": -2, "y": 0 },
+                        "navigation": {
+                            "right": { "panelBoundary": true },
+                            "up": { "name": "Settings" },
                         }
                     }
                 },

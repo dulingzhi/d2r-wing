@@ -359,25 +359,6 @@
             },
             "children": [
                 {
-                    // Toggle between SD/HD
-                    "type": "ButtonWidget", "name": "ToggleLegacy",
-                    "fields": {
-                        "rect": { "x": -572, "y": -2025 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "@FrontEndToggleLegacyButtonText",
-                        "tooltipString": "@ToggleRendererHint",
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
-                        "focusIndicatorOffset": { "x": 0, "y": -2 },
-                        "onClickMessage": "CharacterCreate:ToggleLegacy",
-                        "pressedFrame": 1,
-                        "text/style": "$StyleFEButtonText",
-                        "pointSize": "$LargeFontSize",
-                        "textColor": "$LightButtonTextColor",
-                        "hoveredFrame": 3,
-                        "disabledFrame": 2,
-                    }
-                },
-                {
                     "type": "ButtonWidget", "name": "ToGame",
                     "fields": {
                         "rect": { "x": -572, "y": -220 },
@@ -562,17 +543,9 @@
                     "type": "AnimatedImageWidget", "name": "Logo",
                     "fields": {
                         "anchor": { "x": 1.0, "y": 1.0 },
-                        "rect": { "x": -399, "y": -392, "scale": 0.5 },
+                        "rect": { "x": -399, "y": -375, "scale": 0.5 },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20,
-                    },
-                },
-                {
-                    "type": "ImageWidget", "name": "ResurrectedText",
-                    "fields": {
-                        "anchor": { "x": 1.0, "y": 1.0 },
-                        "rect": { "x": -370, "y": -226, "scale": 0.5 },
-                        "filename": "LogoAnimation/ResurrectedText",
                     },
                 },
                 {

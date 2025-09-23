@@ -19,6 +19,7 @@
                     "fields": {
                         "fitToParent": true,
                         "style": {
+                            "fontFace": "BlizzardGlobal",
                             "pointSize": "$MediumFontSize",
                             "alignment": { "h": "center", "v": "center" },
                         },
@@ -61,6 +62,7 @@
                             "fields": {
                                 "fitToParent": true,
                                 "style": {
+                                    "fontFace": "BlizzardGlobal",
                                     "pointSize": "$MediumFontSize",
                                     "alignment": { "h": "center", "v": "center" },
                                 }

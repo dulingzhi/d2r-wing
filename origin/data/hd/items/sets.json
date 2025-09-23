@@ -633,5 +633,30 @@
   "normal": "wand/gravenspine",
   "uber": "wand/gravenspine",
   "ultra": "wand/gravenspine"
+} },
+  { "warlords_conquest": {
+  "normal": "glove/gaunlets_h",
+  "uber": "glove/gaunlets_h",
+  "ultra": "glove/gaunlets_h"
+} },
+  { "warlords_lust": {
+  "normal": "helmet/great_helm",
+  "uber": "helmet/great_helm",
+  "ultra": "helmet/great_helm"
+} },
+  { "warlords_mantle": {
+  "normal": "armor/full_plate_mail",
+  "uber": "armor/full_plate_mail",
+  "ultra": "armor/full_plate_mail"
+} },
+  { "warlords_crushers": {
+  "normal": "boot/plate_boots",
+  "uber": "boot/plate_boots",
+  "ultra": "boot/plate_boots"
+} },
+  { "warlords_authority": {
+  "normal": "belt/girdle_h",
+  "uber": "belt/girdle_h",
+  "ultra": "belt/girdle_h"
 } }
 ]

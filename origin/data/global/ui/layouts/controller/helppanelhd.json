@@ -52,7 +52,6 @@
             { "name": "Skill2Line", "rect": { "x": 244, "y": 680, "width": 415, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 240, "y": 569, "width": 6, "height": 118}},
             { "name": "EmoteWeheelLine", "rect": { "x": 180, "y": 900, "width": 485, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},	
 
         ],
         "childFormatsXboxSeriesX": [
@@ -95,7 +94,6 @@
             { "name": "Skill2Line", "rect": { "x": 244, "y": 650, "width": 415, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 244, "y": 539, "width": 6, "height": 118}},
             { "name": "EmoteWeheelLine", "rect": { "x": 180, "y": 900, "width": 485, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},	
         ],
         "childFormatsDualshock4": [
             { "name": "ControllerImage", "rect": { "x": -457, "y": 340}},
@@ -119,7 +117,6 @@
             { "name": "HelpSkill2", "rect": { "x": 655, "y": 585}},
             { "name": "HelpEmote", "rect": { "x": 773, "y": 900}},
             { "name": "HelpEmoteIcon", "rect": { "x": 655, "y": 900}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
 
         ],
         "childFormatsDualsense": [
@@ -144,7 +141,6 @@
             { "name": "HelpSkill2", "rect": { "x": 655, "y": 585}},
             { "name": "HelpEmote", "rect": { "x": 765, "y": 900}},
             { "name": "HelpEmoteIcon", "rect": { "x": 655, "y": 900}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
 
         ],
         "childFormatsSwitchFullkey": [
@@ -187,7 +183,6 @@
             { "name": "Skill1Line", "rect": { "x": 229, "y": 635, "width": 352, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 228, "y": 558, "width": 6, "height": 80}},
             { "name": "EmoteWeheelLine", "rect": { "x": 275, "y": 896, "width": 297, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
         ],
         "childFormatsSwitchDualJoyCon": [
             { "name": "ControllerImage", "rect": { "x": -425, "y": 200}},
@@ -227,7 +222,6 @@
             { "name": "Skill1Line", "rect": { "x": 280, "y": 650, "width": 520, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 280, "y": 535, "width": 6, "height": 115}},
             { "name": "EmoteWeheelLine", "rect": { "x": 220, "y": 900, "width": 580, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
         ],
         "childFormatsSwitchSingleJoyCon": [
             { "name": "ControllerImage", "rect": { "x": -425, "y": 200}},
@@ -267,7 +261,6 @@
             { "name": "Skill1Line", "rect": { "x": 280, "y": 650, "width": 520, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 280, "y": 535, "width": 6, "height": 115}},
             { "name": "EmoteWeheelLine", "rect": { "x": 220, "y": 900, "width": 580, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
         ],
         "childFormatsSwitchHandheld": [
             { "name": "ControllerImage", "rect": { "x": -425, "y": 70}},
@@ -309,7 +302,6 @@
             { "name": "Skill1Line", "rect": { "x": 229, "y": 635, "width": 352, "height": 6}},
             { "name": "Skill1LineV", "rect": { "x": 228, "y": 558, "width": 6, "height": 80}},
             { "name": "EmoteWeheelLine", "rect": { "x": 275, "y": 896, "width": 297, "height": 6}},
-            { "name": "HelpLegacyToggle", "rect": { "x": 314, "y": 1096}},
         ],
     },
     "children": [
@@ -455,19 +447,6 @@
                     "type": "TextBoxWidget", "name": "HelpAutoMapIcon",
                     "fields": {
                         "text": "\uE01E",
-                    }
-                },
-                {
-                    "type": "TextBoxWidget", "name": "HelpLegacyToggle",
-                    "fields": {
-                        "text": "\uE00D+\uE01E  @CfgToggleRenderer",
-                        "fontType": "12ptF",
-                        "style": {
-                            "fontColor": "$FontColorGoldYellow",
-                            "options": { "pipeCharacterBehavior" : "handle" },
-                            "pointSize": "$MediumLargeFontSize",
-                            "alignment": { "v": "center", "h": "right" }
-                        }
                     }
                 },
                 // Controller Labels Right Column

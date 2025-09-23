@@ -19,16 +19,9 @@
                 {
                     "type": "AnimatedImageWidget", "name": "Logo",
                     "fields": {
-                        "rect": { "x": 113, "y": 170 },
+                        "rect": { "x": 113, "y": 204 },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20,
-                    },
-                },
-                {
-                    "type": "ImageWidget", "name": "ResurrectedText",
-                    "fields": {
-                        "rect": { "x": 170, "y": 500 },
-                        "filename": "LogoAnimation/ResurrectedText",
                     },
                 },
                 {
@@ -52,6 +45,22 @@
                         "disabledFrame": 2,
                     }
                 },
+// Temp Chinese Beta
+                {
+                    "type": "ButtonWidget", "name": "Exit",
+                    "fields": {
+                        "rect": { "x": 165, "y": 960 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "textString": "@strexitentiregame",
+                        "onClickMessage": "FrontEndNavigation:ToExit",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    }
+                },
+// Temp Chinese Beta
+/*
                 {
                     "type": "ButtonWidget", "name": "Cinematics",
                     "fields": {
@@ -91,6 +100,7 @@
                         "disabledFrame": 2,
                     }
                 },
+*/
             ]
         },
         {

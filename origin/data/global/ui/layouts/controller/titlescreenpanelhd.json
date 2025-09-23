@@ -31,6 +31,9 @@
             "type": "TextBoxWidget", "name": "Copyright",
         },
         {
+            "type": "TextBoxWidget", "name": "ChinesePublisher",
+        },
+        {
             "type": "TextBoxWidget", "name": "LoadingPrompt",
             "fields": {
                 "anchor": { "x": 0.5, "y": 1 },
@@ -50,6 +53,29 @@
         },
         {
             "type": "TextBoxWidget", "name": "BGSAddressTextBox",
+        },
+        {
+            "type": "ButtonWidget", "name": "ChineseAgeRestriction",
+            "children": [
+                {
+                    "type": "ButtonLegendWidget", "name": "ButtonLegend",
+                    "fields": {
+                        "anchor": { "x": 0.5, "y": 1.12 },
+                        "text": {
+                            "style": "$StyleButtonLegend",
+                            "style": {
+                                "dropShadow": "$DefaultDropShadow"
+                            },
+                        },
+                    }
+                },
+            ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "ChineseAgeReminder",
+        },
+        {
+            "type": "TextBoxWidget", "name": "ChineseHealthWarning",
         },
         {
             "type": "RectangleWidget", "name": "LoadingScreen",

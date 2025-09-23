@@ -37,13 +37,15 @@
             "type": "TextBoxWidget", "name": "name_them",
             "fields": {
                 "useAltStyleIfDoesntFit": true,
-                "rect": { "x": 224, "y": 207, "width": 430, "height": 52 },
+                "rect": { "x": 222, "y": 200, "width": 442, "height": 66 },
                 "style": {
+                    "fontFace": "BlizzardGlobal",
                     "pointSize": "$XMediumPanelFontSize",
-                    "spacing": "$MinimumSpacing",
+                    "spacing": "$ReducedSpacing",
                     "alignment": { "h": "left", "v": "center" }
                 },
                 "altStyle": {
+                    "fontFace": "BlizzardGlobal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$MinimumSpacing",
                     "alignment": { "h": "left", "v": "center" }
@@ -80,13 +82,15 @@
             "type": "TextBoxWidget", "name": "name_us",
             "fields": {
                 "useAltStyleIfDoesntFit": true,
-                "rect": { "x": 224, "y": 1277, "width": 430, "height": 52 },
+                "rect": { "x": 222, "y": 1270, "width": 442, "height": 66 },
                 "style": {
+                    "fontFace": "BlizzardGlobal",
                     "pointSize": "$XMediumPanelFontSize",
-                    "spacing": "$MinimumSpacing",
+                    "spacing": "$ReducedSpacing",
                     "alignment": { "h": "left", "v": "center" }
                 },
                 "altStyle": {
+                    "fontFace": "BlizzardGlobal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$MinimumSpacing",
                     "alignment": { "h": "left", "v": "center" }

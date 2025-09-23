@@ -41,11 +41,13 @@
         {
             "type": "TextBoxWidget", "name": "CharacterName",
             "fields": {
-                "rect": { "x": 126, "y": 163, "width": 912, "height": 50 },
+                "rect": { "x": 126, "y": 152, "width": 912, "height": 64 },
                 "style": {
+                    "fontFace": "BlizzardGlobal",
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$LargeFontSize",
                     "dropShadow": "$DefaultDropShadow",
+                    "alignment": { "h": "left", "v": "center" },
                 },
             }
         },

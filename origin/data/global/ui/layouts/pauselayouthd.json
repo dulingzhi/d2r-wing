@@ -39,16 +39,9 @@
                 {
                    "type": "AnimatedImageWidget", "name": "Logo",
                    "fields": {
-                        "rect": { "x": -292, "y": 141 },
+                        "rect": { "x": -289, "y": 174 },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20,
-                   }
-                },
-                {
-                   "type": "ImageWidget", "name": "ResurrectedText",
-                   "fields": {
-                        "rect": { "x": -239, "y": 473 },
-                        "filename": "LogoAnimation/ResurrectedText",
                    }
                 },
                 {
@@ -149,7 +142,7 @@
             "type": "ImageWidget", "name": "AgeDescriptorImage",
             "fields": {
                 "rect": { "x": 40, "y": 80 },
-                "filename": "PauseMenu\\descriptor-18",
+                "filename": "PauseMenu\\age-descriptor",
             }
         },
         {

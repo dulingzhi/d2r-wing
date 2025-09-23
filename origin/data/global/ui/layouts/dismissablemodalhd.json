@@ -23,7 +23,10 @@
                     "type": "TextBoxWidget", "name": "Prompt",
                     "fields": {
                         "rect": { "x": 140, "y": 70, "width": 966, "height": 212 },
-                        "style": "$StyleModalDialogDescription"
+                        "style": "$StyleModalDialogDescription",
+                        "style": {
+                            "fontFace": "BlizzardGlobal"
+                        }
                     }
                 },
                 {

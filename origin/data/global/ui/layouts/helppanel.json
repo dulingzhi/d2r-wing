@@ -15,7 +15,6 @@
             { "name": "HelpGameMenu", "rect": { "x": 797, "y": 886 } },
             { "name": "HelpchatMode", "rect": { "x": 797, "y": 906 } },
             { "name": "Helpbeltopen", "rect": { "x": 797, "y": 926 } },
-            { "name": "HelpRenderToggle", "rect": { "x": 797, "y": 946 }, "command": "toggle_renderer", "text": "@StrSDHelpLegacyToggle" },
             { "name": "HelpZoom", "rect": { "x": 797, "y": 966 }, "command": "zoom", "text": "@StrSDHelpZoom" },
             { "name": "HelpHelpme", "rect": { "x": 797, "y": 986 }, "command": "help", "text": "@StrHelp8a" },
             { "name": "HelpHealth", "rect": { "x": 735, "y": 1088 } },
@@ -37,16 +36,16 @@
             { "name": "HelpMSkillc2", "rect": { "x": 1187, "y": 1048 } },
             { "name": "Helpmana", "rect": { "x": 1266, "y": 1088 } },
             // points
-            { "name": "GoldPoint1", "rect": { "x": 784, "y": "$HelpGoldPointY1_640" } },
-            { "name": "GoldPoint2", "rect": { "x": 784, "y": "$HelpGoldPointY2_640" } },
-            { "name": "GoldPoint3", "rect": { "x": 784, "y": "$HelpGoldPointY3_640" } },
-            { "name": "GoldPoint4", "rect": { "x": 784, "y": "$HelpGoldPointY4_640" } },
-            { "name": "GoldPoint5", "rect": { "x": 784, "y": "$HelpGoldPointY5_640" } },
-            { "name": "GoldPoint6", "rect": { "x": 784, "y": "$HelpGoldPointY6_640" } },
-            { "name": "GoldPoint7", "rect": { "x": 784, "y": "$HelpGoldPointY7_640" } },
-            { "name": "GoldPoint8", "rect": { "x": 784, "y": "$HelpGoldPointY8_640" } },
-            { "name": "GoldPoint9", "rect": { "x": 784, "y": "$HelpGoldPointY9_640" } },
-            { "name": "GoldPoint10", "rect": { "x": 784, "y": "$HelpGoldPointY10_640" } },
+            { "name": "GoldPoint1", "rect": { "x": 784, "y": 825 } },
+            { "name": "GoldPoint2", "rect": { "x": 784, "y": 845 } },
+            { "name": "GoldPoint3", "rect": { "x": 784, "y": 865 } },
+            { "name": "GoldPoint4", "rect": { "x": 784, "y": 885 } },
+            { "name": "GoldPoint5", "rect": { "x": 784, "y": 905 } },
+            { "name": "GoldPoint6", "rect": { "x": 784, "y": 925 } },
+            { "name": "GoldPoint7", "rect": { "x": 784, "y": 945 } },
+            { "name": "GoldPoint8", "rect": { "x": 784, "y": 965 } },
+            { "name": "GoldPoint9", "rect": { "x": 784, "y": 985 } },
+            { "name": "GoldPoint10", "rect": { "x": 784, "y": 1005 } },
             // lines
             { "name": "LifeLine", "rect": { "x": 734, "y": 1125, "width": 2, "height": 46 } },
             { "name": "LeftMouseLine", "rect": { "x": 810, "y": 1085, "width": 2, "height": 116 } },
@@ -90,7 +89,6 @@
             { "name": "HelpGameMenu", "rect": { "x": 717, "y": 826 } },
             { "name": "HelpchatMode", "rect": { "x": 717, "y": 846 } },
             { "name": "Helpbeltopen", "rect": { "x": 717, "y": 866 } },
-            { "name": "HelpRenderToggle", "rect": { "x": 717, "y": 886 }, "command": "toggle_renderer", "text": "@StrSDHelpLegacyToggle" },
             { "name": "HelpZoom", "rect": { "x": 717, "y": 906 }, "command": "zoom", "text": "@StrSDHelpZoom" },
             { "name": "HelpHelpme", "rect": { "x": 717, "y": 926 }, "command": "help", "text": "@StrHelp8a" },
             { "name": "HelpHealth", "rect": { "x": 659, "y": 1149 } },
@@ -114,16 +112,16 @@
             { "name": "HelpMSkillc2", "rect": { "x": 1274, "y": 1108 } },
             { "name": "Helpmana", "rect": { "x": 1344, "y": 1149 } },
             // points
-            { "name": "GoldPoint1", "rect": { "x": 704, "y": "$HelpGoldPointY1" } },
-            { "name": "GoldPoint2", "rect": { "x": 704, "y": "$HelpGoldPointY2" } },
-            { "name": "GoldPoint3", "rect": { "x": 704, "y": "$HelpGoldPointY3" } },
-            { "name": "GoldPoint4", "rect": { "x": 704, "y": "$HelpGoldPointY4" } },
-            { "name": "GoldPoint5", "rect": { "x": 704, "y": "$HelpGoldPointY5" } },
-            { "name": "GoldPoint6", "rect": { "x": 704, "y": "$HelpGoldPointY6" } },
-            { "name": "GoldPoint7", "rect": { "x": 704, "y": "$HelpGoldPointY7" } },
-            { "name": "GoldPoint8", "rect": { "x": 704, "y": "$HelpGoldPointY8" } },
-            { "name": "GoldPoint9", "rect": { "x": 704, "y": "$HelpGoldPointY9" } },
-            { "name": "GoldPoint10", "rect": { "x": 704, "y": "$HelpGoldPointY10" } },
+            { "name": "GoldPoint1", "rect": { "x": 704, "y": 765 } },
+            { "name": "GoldPoint2", "rect": { "x": 704, "y": 785 } },
+            { "name": "GoldPoint3", "rect": { "x": 704, "y": 805 } },
+            { "name": "GoldPoint4", "rect": { "x": 704, "y": 825 } },
+            { "name": "GoldPoint5", "rect": { "x": 704, "y": 845 } },
+            { "name": "GoldPoint6", "rect": { "x": 704, "y": 865 } },
+            { "name": "GoldPoint7", "rect": { "x": 704, "y": 885 } },
+            { "name": "GoldPoint8", "rect": { "x": 704, "y": 905 } },
+            { "name": "GoldPoint9", "rect": { "x": 704, "y": 925 } },
+            { "name": "GoldPoint10", "rect": { "x": 704, "y": 945 } },
             // lines
             { "name": "LifeLine", "rect": { "x": 658, "y": 1186, "width": 2, "height": 46 } },
             { "name": "LeftMouseLine", "rect": { "x": 733, "y": 1145, "width": 2, "height": 116 } },
@@ -291,74 +289,67 @@
                 "text": "@strClose"
             }
         },
-        // Widgets below use 12ptf, some use 11ptf in Asian languages (the same font, different alignment).
+        // All widgets below should use FONT_FORMAL_12PT
         {
             "type": "TextBoxWidget", "name": "HelpRun",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp2"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpHighItems",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp3"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpStandAttack",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp4"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpAutoMap",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp5"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpGameMenu",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp6"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpchatMode",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp7"
             }
         },
         {
             "type": "TextBoxWidget", "name": "Helpbeltopen",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp8"
-            }
-        },
-        {
-            "type": "TextBoxWidget", "name": "HelpRenderToggle",
-            "fields": {
-                "fontType": "$HelpAligned12ptf",
-                "text": "@StrSDHelpLegacyToggle"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpZoom",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrSDHelpZoom"
             }
         },
         {
             "type": "TextBoxWidget", "name": "HelpHelpme",
             "fields": {
-                "fontType": "$HelpAligned12ptf",
+                "fontType": "12ptF",
                 "text": "@StrHelp8a"
             }
         },

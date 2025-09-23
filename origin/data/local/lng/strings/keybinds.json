@@ -4112,5 +4112,39 @@
     "ptBR": "Menu de mercenário",
     "ruRU": "Меню наемника",
     "zhCN": "佣兵界面"
+  },
+  {
+    "id": 27384,
+    "Key": "CfgCycleStashLeft",
+    "enUS": "Previous Stash Page",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": "储藏箱上一页"
+  },
+  {
+    "id": 27385,
+    "Key": "CfgCycleStashRight",
+    "enUS": "Next Stash Page",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": "储藏箱下一页"
   }
 ]

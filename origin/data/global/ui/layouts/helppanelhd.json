@@ -10,11 +10,10 @@
             { "name": "HelpAutoMap", "rect": { "x": -865, "y": 570 }, "command": "automap", "text": "@StrHDHelp4" },
             { "name": "HelpGameMenu", "rect": { "x": -865, "y": 505 },"command": "exitmenu", "text": "@StrHDHelp5" },
             { "name": "HelpchatMode", "rect": { "x": -865, "y": 635 }, "command": "chat", "text": "@StrHDHelp6" },
-            { "name": "Helpskillbind", "rect": { "x": -865, "y": 960 }, "command": [ "skill1", "skill8" ], "text": "@StrHDHelp7" },
-            { "name": "HelpRenderToggle", "rect": { "x": -865, "y": 700 }, "command": "toggle_renderer", "text": "@StrHDHelp8" },
-            { "name": "HelpZoom", "rect": { "x": -865, "y": 765 }, "command": "zoom", "text": "@StrHDHelpZoomDescription" },
-            { "name": "HelpMercenaryScreen", "rect": { "x": -865, "y": 830 }, "command": "hirelingscreen", "text": "@StrHDHelp9" },
-            { "name": "HelpMercenaryPotion", "rect": { "x": -865, "y": 895 }, "command": [ "standstill", "belt1", "belt2", "belt3", "belt4" ], "text": "@StrHDHelp10" },
+            { "name": "Helpskillbind", "rect": { "x": -865, "y": 895 }, "command": [ "skill1", "skill8" ], "text": "@StrHDHelp7" },
+            { "name": "HelpZoom", "rect": { "x": -865, "y": 700 }, "command": "zoom", "text": "@StrHDHelpZoomDescription" },
+            { "name": "HelpMercenaryScreen", "rect": { "x": -865, "y": 765 }, "command": "hirelingscreen", "text": "@StrHDHelp9" },
+            { "name": "HelpMercenaryPotion", "rect": { "x": -865, "y": 830 }, "command": [ "standstill", "belt1", "belt2", "belt3", "belt4" ], "text": "@StrHDHelp10" },
         ],
     },
     "children": [
@@ -149,17 +148,6 @@
                 },
                 {
                     "type": "TextBoxWidget", "name": "Helpskillbind",
-                    "fields": {
-                        "fontType": "12ptF",
-                        "style": {
-                            "options": { "pipeCharacterBehavior" : "handle" },
-                            "pointSize": "$MediumLargeFontSize",
-                            "alignment": { "v": "center", "h": "left" }
-                        }
-                    }
-                },
-                {
-                    "type": "TextBoxWidget", "name": "HelpRenderToggle",
                     "fields": {
                         "fontType": "12ptF",
                         "style": {

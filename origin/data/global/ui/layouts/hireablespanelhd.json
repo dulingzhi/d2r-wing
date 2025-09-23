@@ -13,7 +13,7 @@
         "mercenaryIconTooltipMouseoverDelay": 700,
         "allyPlayerFontColor": "$FontColorGold",
         "allyNPCFontColor": "$FontColorVeryLightGray",
-//        "testPartyIcons": true
+        //"testPartyIcons": true
     },
     "children": [
         {
@@ -24,10 +24,10 @@
                     "fields": {
                         "anchor": { "x": 0, "y": 0.98 },
                         "style": {
-                            "fontFace": "Formal",
+                            "fontFace": "BlizzardGlobal",
                             "fontColor": "$FontColorGold",
                             "pointSize": "$SmallFontSize",
-                            "spacing": "$MinimumSpacing",
+                            "spacing": "$ReducedSpacing",
                             "alignment": { "h": "left" },
                         }
                     }

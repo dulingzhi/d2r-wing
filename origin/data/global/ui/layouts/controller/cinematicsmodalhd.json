@@ -83,23 +83,8 @@
                 "focusIndicatorOffset": { "x": 7, "y": 0 },
                 "navigation": {
                     "up": { "name": "Option5" },
-                    "down": { "name": "LegacyCheckbox" }
                 }
             }
-        },
-        {
-            "type": "ToggleButtonWidget", "name": "LegacyCheckbox",
-            "fields": {
-                "focusIndicatorPadding": "$OptionsToggleFocusIndicatorPadding",
-                "focusIndicatorFilename": "$OptionsToggleFocusIndicatorFilename",
-                "focusIndicatorOffset": { "x": 0, "y": -4 },
-                "navigation": {
-                    "up": { "name": "Option6" }
-                }
-            },
-        },
-        {
-            "type": "TextBoxWidget", "name": "LegacyCinematicsText",
         },
         {
             "type": "RectangleWidget", "name": "LegendBackground",

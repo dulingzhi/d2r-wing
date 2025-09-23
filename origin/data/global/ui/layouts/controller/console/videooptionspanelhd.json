@@ -92,53 +92,7 @@
                                 },
                             ]
                         },
-                        {
-                            "type": "TableRowWidget", "name": "Row Legacy Video Options",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "Legacy Video Options",
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                        },
-                                    ]
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Resolution",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "ResolutionText",
-                                },
-                                {
-                                    "type": "CarouselWidget", "name": "Resolution",
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row LightingQuality",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "LightingQualityText",
-                                },
-                                {
-                                    "type": "CarouselWidget", "name": "LightingQuality",
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row BlendedShadows",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "BlendedShadowsText",
-                                },
-                                {
-                                    "type": "ToggleButtonWidget", "name": "BlendedShadows",
-                                },
-                            ]
-                        },
-                        {
+						{
                             "type": "TableRowWidget", "name": "Row Perspective",
                             "children": [
                                 {
@@ -146,28 +100,6 @@
                                 },
                                 {
                                     "type": "ToggleButtonWidget", "name": "Perspective",
-                                },
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Row Contrast",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "ContrastText",
-                                },
-                                {
-                                    "type": "SettingsSliderWidget", "name": "Contrast",
-                                },
-                            ]
-                        },
-						{
-                            "type": "TableRowWidget", "name": "Row LegacyGraphicsMode",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "LegacyGraphicsModeText",
-                                },
-                                {
-                                    "type": "CarouselWidget", "name": "LegacyGraphicsMode",
                                 },
                             ]
                         },

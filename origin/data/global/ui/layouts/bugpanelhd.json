@@ -35,6 +35,7 @@
                                 "anchor": { "x": 0.5 },
                                 "text": "@ReportPanelTitle",
                                 "style": {
+                                    "fontFace": "BlizzardGlobal",
                                     "pointSize": "$LargeFontSize",
                                     "alignment": { "v": "center", "h": "center" },
                                     "fontColor": "$FontColorGold",

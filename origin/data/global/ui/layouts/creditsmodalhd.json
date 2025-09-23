@@ -4,14 +4,30 @@
         "fitToParent": true,
     },
     "children": [
+        // TODO: remove when censored credits video is in.
         {
+            "type": "RectangleWidget", "name": "LoadingScreen",
+            "fields": {
+                "fitToScreen": true,
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "BackgroundImage",
+            "fields": {
+                "anchor": { "x": 0.5 },
+                "rect": { "x": -1920 },
+                "filename": "SplashScreen/EndGame_HD",
+            }
+        },
+        // TODO: uncomment when censored credits video is in.
+/*        {
             "type": "MoviePlayerWidget", "name": "CreditsBackground",
             "fields": {
                 "jukeboxManaged": true,
                 "showCursor": true,
                 "ignoreInputMessages": true,
             }
-        },
+        },*/
         {
             "type": "CreditsWidget", "name": "Credits",
             "fields": {
