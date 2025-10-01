@@ -73,25 +73,25 @@ pipelines:
       - resources/generated/runewords.tsv
     template: |-
       {{ .enUS }}
-      {{ .zhTW }}
+      {{ .currentLang }}
 
   - name: add English name (runes)
     resources:
       - resources/generated/runes.tsv
     template: |-
-      {{ .zhTW }} {{ .enName }}
+      {{ .currentLang }} {{ .enName }}
 
   - name: add English name (skills)
     resources:
       - resources/generated/skills.tsv
     template: |-
-      {{ .zhTW }}({{ .enUS }})
+      {{ .currentLang }}({{ .enUS }})
 
   - name: add equip info
     resources:
       - resources/generated/equip.tsv
     template: |-
-      {{ .zhTW -}}
+      {{ .currentLang -}}
       {{- index .data.grade .grade }}
       {{- index .data.weight .weight }}
       {{- with .speed -}} 〔 {{- . -}} 〕 {{- end }}
@@ -102,7 +102,7 @@ pipelines:
     resources:
       - resources/generated/staff-mods.tsv
     template: |-
-      {{ .zhTW -}} *
+      {{ .currentLang -}} *
 
   - name: add MAX
     resources:
@@ -111,7 +111,7 @@ pipelines:
       - origin/data/local/lng/strings/skills.json
     template: |-
       [{{ lookupString .max }}]
-      {{ .zhTW }}
+      {{ .currentLang }}
 
   - name: modify gems
     resources:
@@ -121,9 +121,9 @@ pipelines:
         ÿc5[升級# {{- .inRune -}} ]
       {{ end }}
       {{- if contains .rank "45" -}}
-        ÿc1★ {{- .zhTW -}} ★
+        ÿc1★ {{- .currentLang -}} ★
       {{- else -}}
-        ÿcS {{- .zhTW -}}
+        ÿcS {{- .currentLang -}}
       {{- end -}}
       ÿc0
 
@@ -137,7 +137,7 @@ pipelines:
       {{- else if .newName }}
         {{- .newName }}
       {{- else }}
-        {{- .zhTW }}
+        {{- .currentLang }}
       {{- end }}
       {{- .suffix }}
       {{- with .color }}{{ index $.data.color "white" }}{{ end }}
@@ -148,7 +148,7 @@ pipelines:
     template: |-
       {{- $num := atoi .num }}
       {{- if .category | eq "in socket" }}
-        {{- .zhTW }}#{{ printf "%02d" $num }}
+        {{- .currentLang }}#{{ printf "%02d" $num }}
       {{- else }}
         {{- if .recipeGem -}}
           {{- .data.color.gray -}}
@@ -156,7 +156,7 @@ pipelines:
           {{- "\n" }}
           {{- .data.color.orange }}
         {{- end }}
-        {{- .zhTW }}#{{ printf "%02d" $num }}
+        {{- .currentLang }}#{{ printf "%02d" $num }}
       {{- end }}
 
   - name: add level group res
@@ -166,7 +166,7 @@ pipelines:
       - 2714
     key_template: 'act{{ .act }} {{ .levelGroup }} LG'
     template: |-
-      {{ .zhTW }}
+      {{ .currentLang }}
       {{- if ne .avgMonDen "0" }} ÿc5(免疫:
         {{- if or (ge (atoi .maxFR) 100) (ge (atoi .maxLR) 100) (ge (atoi .maxCR) 100) (ge (atoi .maxPR) 100) (ge (atoi .maxDR) 100) (ge (atoi .maxMR) 100) }}
           {{- if ge (atoi .maxFR) 100 -}} ÿc1火 {{- if ge (atoi .maxFR) 117 -}} * {{- end -}} {{- end -}}
@@ -187,7 +187,7 @@ pipelines:
     resources:
       - resources/generated/levels.tsv
     template: |-
-      {{ .zhTW }} [{{ .normal }}|{{ .nightmare }}|{{ .hell }}]
+      {{ .currentLang }} [{{ .normal }}|{{ .nightmare }}|{{ .hell }}]
 
   - name: modify text
     resources:
@@ -198,5 +198,5 @@ pipelines:
     resources:
       - resources/text_abbr.tsv
     template: |-
-      {{ mkAbbr .zhTW .abbr }}
+      {{ mkAbbr .currentLang .abbr }}
 

@@ -2,6 +2,7 @@ SHELL=/bin/bash -o pipefail
 
 LANG_TYPE					= sc
 MODE						= std
+OUTPUT_TYPE					= domestic # oversea or domestic
 
 ORIGINDIR 					= origin
 BUILDDIR 					= build
@@ -31,9 +32,11 @@ SC_TARGET_STRINGS 			= $(patsubst $(ORIGINDIR)/%, $(SCDIR)/%, $(ORI_STRINGS_FILE
 
 GENERATED_RES_FILES			= $(patsubst %, $(RESDIR)/generated/%.tsv, $(GENERATED_RES))
 
-# EXCEL_PATCH					= $(wildcard $(RESDIR)/patches/data/global/excel/*.txt.patch)
+# EXCEL_PATCH				= $(wildcard $(RESDIR)/patches/data/global/excel/*.txt.patch)
 # EXCEL_OUT					= $(patsubst $(RESDIR)/patches/%.patch, $(COMMONDIR)/%, $(EXCEL_PATCH))
 ZHTW_DIFF_FILES				= $(patsubst %.json, $(RESDIR)/generated/zhTW-diff/%.tsv, $(LEGACY_STRINGS_FILES))
+
+GEN_STRING_ARG				= -lang $(LANG_TYPE) -output $(OUTPUT_TYPE) # -add-only
 
 # common
 
@@ -57,10 +60,10 @@ $(TOOLDIR)/%:
 	mkdir -p $(@D)
 	go build -o $(BUILDDIR)/bin/$* github.com/Wing924/d2r-wing/tools/cmd/$*
 
-# build Traditional Chinese strings
+# build strings
 $(TCDIR)/data/local/lng/strings/%.json: $(ORIGINDIR)/data/local/lng/strings/%.json
 	mkdir -p $(@D)
-	$(TOOLDIR)/gen-strings -config $(CONFIG_FILE) < <(scripts/read-origin.sh $<) > $@
+	$(TOOLDIR)/gen-strings -config $(CONFIG_FILE) $(GEN_STRING_ARG) < <(scripts/read-origin.sh $<) > $@
 
 # convert Traditional Chinese to Simplified Chinese
 $(SCDIR)/data/local/lng/strings/%.json: $(TCDIR)/data/local/lng/strings/%.json

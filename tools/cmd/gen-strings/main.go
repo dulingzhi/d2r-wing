@@ -5,17 +5,20 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"os"
+	"text/template"
+
 	"github.com/Wing924/d2r-wing/tools/lib/enc"
 	"github.com/Wing924/d2r-wing/tools/lib/model"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
-	"os"
-	"text/template"
 )
 
 var (
-	config = flag.String("config", "", "config file")
-	debug  = flag.Bool("debug", false, "debug mode")
+	config      = flag.String("config", "", "config file")
+	debug       = flag.Bool("debug", false, "debug mode")
+	langMode    = flag.String("lang", "tc", "language mode (tc or sc)")
+	outputField = flag.String("output", "oversea", "output language field (oversea or domestic)")
 )
 
 var logger *zap.SugaredLogger
@@ -77,7 +80,12 @@ func processPipeline(entries []model.Entry, cfg *Config) []model.Entry {
 
 	for i := 0; i < len(entries); i++ {
 		entry := entries[i]
-		oldText := entry.ZhTW
+		var oldText string
+		if *langMode == "sc" {
+			oldText = entry.ZhCN
+		} else {
+			oldText = entry.ZhTW
+		}
 	PIP:
 		for j, pip := range cfg.Pipelines {
 			res := resources[j]
@@ -118,14 +126,22 @@ func processPipeline(entries []model.Entry, cfg *Config) []model.Entry {
 			if newKey == entry.Key {
 				if oldText != newText {
 					logger.Infof("Replace %q\t->\t%q", oldText, newText)
-					entry.ZhTW = newText
+					if *outputField == "domestic" {
+						entry.ZhCN = newText
+					} else {
+						entry.ZhTW = newText
+					}
 					entries[i] = entry
 				}
 			} else {
 				newEntry := entry
 				newEntry.Key = newKey
 				newEntry.ID = -1
-				newEntry.ZhTW = newText
+				if *outputField == "domestic" {
+					newEntry.ZhCN = newText
+				} else {
+					newEntry.ZhTW = newText
+				}
 				entries = append(entries, newEntry)
 				logger.Infof("New entry %q\t->\t%q", newEntry.Key, newText)
 			}
@@ -143,8 +159,14 @@ func generateTemplateData(cfg *Config, row map[string]string, entry model.Entry)
 		data[k] = v
 	}
 	data["Key"] = entry.Key
-	data["zhTW"] = entry.ZhTW
 	data["enUS"] = entry.EnUS
+
+	// 根据语言模式设置当前处理的字段
+	if *langMode == "sc" {
+		data["currentLang"] = entry.ZhCN
+	} else {
+		data["currentLang"] = entry.ZhTW
+	}
 	return data
 }
 
