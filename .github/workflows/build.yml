@@ -27,9 +27,13 @@ jobs:
       - name: install spruce
         run: |
           id
-          wget -nv https://github.com/geofffranks/spruce/releases/download/v1.29.0/spruce-linux-amd64
+          wget -nv https://github.com/geofffranks/spruce/releases/download/v1.31.1/spruce-linux-amd64
           chmod a+x spruce-linux-amd64
           mv spruce-linux-amd64 ~/go/bin/spruce
+
+      - uses: ConorMacBride/install-package@v1
+        with:
+          apt: textql jq
 
       - name: build
         env:
