@@ -1,0 +1,29 @@
+{
+    "children": [
+        "(( append ))",
+        {
+            "type": "TimerWidget",
+            "name": "OpenMiniCute",
+            "fields": {
+                "time": 1,
+                "message": "PanelManager:OpenPanel:HoradricCubeMiniLayout"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "TimerClose",
+            "fields": {
+                "time": 1,
+                "message": "PlayerInventoryPanelMessage:Close"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "TimerClose",
+            "fields": {
+                "time": 1,
+                "message": "PanelManager:ClosePanel:HUDWarnings"
+            }
+        }
+    ]
+}
