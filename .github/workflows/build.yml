@@ -40,6 +40,7 @@ jobs:
           MODE: ${{ matrix.mode }}
           LANG: ${{ matrix.lang }}
         run: |
+          make gen MODE=$MODE LANG_TYPE=$LANG
           make build MODE=$MODE LANG_TYPE=$LANG
           echo "VERSION=$(git describe --tags)" >> $GITHUB_ENV
 
